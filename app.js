@@ -1,5 +1,5 @@
-let userScore = 0;
-let computerScore = 0;
+let userScore = 1;
+let computerScore = 1;
 
 let compGen = () => {
     let options = ["rock", "paper", "scissors"];
