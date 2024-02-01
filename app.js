@@ -25,7 +25,6 @@ const showWinner = (userWin) => {
     else{
         msg.innerHTML = "You Lose";
         msg.style.backgroundColor = "red";
-        console.log("computer score ",computerScore++);
         cscore.innerHTML = computerScore++;
     }
 }
