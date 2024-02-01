@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(167,207,255,1) 100%);
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.title{
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.title:hover{
+    color: yellows;
+}
+.rock{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+    object-fit: cover;
+}
+.rock:hover{
+    border: 5px solid black;
+    opacity: 0.8;
+}
+.paper{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    object-fit: cover;
+}
+.paper:hover{
+    border: 5px solid black;
+    opacity: 0.8;
+}
+.scissors{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    object-fit: cover;
+}
+.scissors:hover{
+    border: 5px solid black;
+    opacity: 0.9;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px
+}
+.rock{
+    margin: 15px;
+}
+.paper{
+    margin: 15px;
+}
+.scissors{
+    margin: 15px;
+}
+.score-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+.score{
+    margin: 70px;
+}
+.user-score, .comp-score{
+    font-size: 3rem;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+}
+.rocket{
+    display: flex;
+}
+
+.Rocket{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    animation: Rocket 4s linear infinite;
+}
+@keyframes Rocket {
+    
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+
+}
+.Rocket1{
+    margin-left: 1600px;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#msg{
+    color: white;
+    background-color: black;
+    display: inline;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 1rem;
+}
