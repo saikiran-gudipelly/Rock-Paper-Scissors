@@ -38,6 +38,9 @@ const playGame = (userChoice) => {
     console.log("computer choice ", computerChoice);
 
     if(userChoice === computerChoice){
+         msg.innerHTML = "Game was Draw";
+        msg.style.backgroundColor = "yellow";
+        msg.style.color = "black";
         Draw();
     }
     else{
